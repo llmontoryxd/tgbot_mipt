@@ -1,7 +1,13 @@
+"""
+Модуль, содержащий все возможные состояния FSM
+"""
 from aiogram.dispatcher.filters.state import State, StatesGroup
 
 
 class GameStates(StatesGroup):
+    """
+    Класс состояний
+    """
     start = State()
     train_random_choice = State()
     train_all_choice = State()

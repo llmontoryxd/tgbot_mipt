@@ -1,9 +1,13 @@
+"""
+Модуль сообщений
+"""
+
 WELCOME_MESSAGE = '''
 Привет! Я помогу тебе выучить английский язык! \n
-Доступные команды: \n
-/train_random_choice \n
-/train_all_choice \n
-/print_all_words \n
-/add_one_word \n
-/add_from_file \n
+<b>Доступные команды</b>: \n
+/train_random_choice - <i>тренировка случайного слова с выбором ответа</i> \n
+/train_all_choice - <i>тренировка всех слов подряд с выбором ответа</i> \n
+/print_all_words - <i>вывод на экран всех слов</i> \n
+/add_one_word - <i>добавить одно слово</i> \n
+/add_from_file - <i>добавить слова из файла. Необходимый формат - csv</i> \n
 '''

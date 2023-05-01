@@ -1,3 +1,6 @@
+"""
+Модуль, отвечающий за запуск бота
+"""
 from aiogram import executor
 from bot_app.app import dp
 
